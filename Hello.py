@@ -20,29 +20,27 @@ LOGGER = get_logger(__name__)
 
 def run():
     st.set_page_config(
-        page_title="Hello",
-        page_icon="👋",
+        page_title="Aditya Fajri Melinianto",
     )
 
-    st.write("# Welcome to Streamlit! 👋")
+    st.write("# Dicoding Submission: Proyek Analisis Data")
 
-    st.sidebar.success("Select a demo above.")
+    st.sidebar.success("Silahkan pilih salah satu menu diatas")
 
     st.markdown(
         """
-        Streamlit is an open-source app framework built specifically for
-        Machine Learning and Data Science projects.
-        **👈 Select a demo from the sidebar** to see some examples
-        of what Streamlit can do!
-        ### Want to learn more?
-        - Check out [streamlit.io](https://streamlit.io)
-        - Jump into our [documentation](https://docs.streamlit.io)
-        - Ask a question in our [community
-          forums](https://discuss.streamlit.io)
-        ### See more complex demos
-        - Use a neural net to [analyze the Udacity Self-driving Car Image
-          Dataset](https://github.com/streamlit/demo-self-driving)
-        - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
+       Selamat datang kepada senior reviewer dicoding atau teman-teman sekalian. Streamlit ini dibuat sebagai syarat kelulusan 
+       salah satu kelas di Dicoding, yaitu Proyek Analisis Data.
+        **Dataset yang digunakan adalah: Brazilian E-Commerce Public Dataset by Olist**
+        ### Dimana saya bisa menemukan dataset ini?
+        - Anda bisa menemukan dataset yang saya gunakan [disini](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+        - Jika ada saran dan kritik, teman-teman bisa menghubungi saya [disini](https://github.com/adityafajri)
+        - Website ini saya buat menggunakan platform [streamlit](https://streamlit.io)
+        ### Terimakasih kepada
+        - Tuhan Yang Maha Esa
+        - Indosat IDCamp yang sudah menyelenggarakan program beasiswa ini
+        - Semua instructor, content writer, reviewer, dan pihak lain yang tidak bisa disebut satu persatu dari Dicoding Indonesia untuk materi yang luar biasa
+        - Diri saya sendiri karena sudah berusaha sampai sejauh ini
     """
     )
 
