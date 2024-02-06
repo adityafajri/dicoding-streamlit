@@ -29,8 +29,7 @@ def run():
 
     st.markdown(
         """
-       Selamat datang kepada senior reviewer dicoding atau teman-teman sekalian. Streamlit ini dibuat sebagai syarat kelulusan 
-       salah satu kelas di Dicoding, yaitu Proyek Analisis Data.
+       Selamat datang para pengunjung. Streamlit ini dibuat sebagai sarana saya melatih kemampuan untuk mengembangkan skill, yaitu Analisis Data.
         **Dataset yang digunakan adalah: Brazilian E-Commerce Public Dataset by Olist**
         ### Dimana saya bisa menemukan dataset ini?
         - Anda bisa menemukan dataset yang saya gunakan [disini](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
@@ -38,8 +37,6 @@ def run():
         - Website ini saya buat menggunakan platform [streamlit](https://streamlit.io)
         ### Terimakasih kepada
         - Tuhan Yang Maha Esa
-        - Indosat IDCamp yang sudah menyelenggarakan program beasiswa ini
-        - Semua instructor, content writer, reviewer, dan pihak lain yang tidak bisa disebut satu persatu dari Dicoding Indonesia untuk materi yang luar biasa
         - Diri saya sendiri karena sudah berusaha sampai sejauh ini
     """
     )
