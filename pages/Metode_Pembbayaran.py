@@ -19,7 +19,7 @@ import streamlit as st
 from streamlit.hello.utils import show_code
 import plotly.graph_objects as go
 
-order_payments_df = pd.read_csv('data/order_payments_dataset.csv')
+order_payments_df = pd.read_csv("https://raw.githubusercontent.com/adityafajri/dicoding-streamlit/main/data/order_payments_dataset.csv")
 new_order_payments_df = order_payments_df.drop(order_payments_df[order_payments_df['payment_type'] == 'not_defined'].index)
 
 

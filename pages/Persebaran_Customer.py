@@ -19,7 +19,7 @@ import pandas as pd
 import streamlit as st
 from streamlit.hello.utils import show_code
 
-customers_df = pd.read_csv('data/customers_dataset.csv')
+customers_df = pd.read_csv("https://raw.githubusercontent.com/adityafajri/dicoding-streamlit/main/data/customers_dataset.csv")
 persebaran = customers_df["customer_state"].value_counts()
 
 fig = go.Figure()

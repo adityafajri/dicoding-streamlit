@@ -19,7 +19,7 @@ import pandas as pd
 import streamlit as st
 from streamlit.hello.utils import show_code
 
-product_df = pd.read_csv('data/products_dataset.csv')
+product_df = pd.read_csv("https://raw.githubusercontent.com/adityafajri/dicoding-streamlit/main/data/products_dataset.csv")
 top_product = product_df["product_category_name"].value_counts().sort_values(ascending=False)[:10]
 
 fig = go.Figure()
