@@ -23,7 +23,7 @@ def run():
         page_title="Aditya Fajri Melinianto",
     )
 
-    st.write("# Dicoding Submission: Proyek Analisis Data")
+    st.write("# Data Analysis Project: Brazilian E-Commerce Public Dataset by Olist")
 
     st.sidebar.success("Silahkan pilih salah satu menu diatas")
 
